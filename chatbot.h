@@ -18,8 +18,6 @@ public:
     ~Chatbot();
 
 private slots:
-    void on_btn_clicked();
-
     void on_btn_pressed();
 
 private:
