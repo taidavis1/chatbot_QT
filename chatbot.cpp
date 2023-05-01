@@ -21,7 +21,7 @@ void Chatbot::on_btn_pressed()
     QUrl url("https://api.openai.com/v1/engines/text-davinci-003/completions");
     QNetworkRequest req(url);
     req.setHeader(QNetworkRequest::ContentTypeHeader , "application/json");
-    req.setRawHeader("Authorization" ,"Bearer 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");
+    req.setRawHeader("Authorization" ,"Bearer XXXXXXXXXXXXXXXXXXXXXXXXXXXX");
     QJsonObject obj;
     QString messages = ui->msgbox->text();
     QString prompt = "User: " + messages;
